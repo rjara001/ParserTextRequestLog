@@ -1,0 +1,10 @@
+[10:26] Rodrigo JARA PEÑA
+Resolved pending breakpoint at 'WebBaseServices.cs:328,21' to void Wealth.Services.WebServices.WebBaseServices.<>c__DisplayClass29_0<Wealth.Services.Models.Response.BeneficiaryMaintenanceResponse>.<<PerformRequest>b__0>d.MoveNext () [0x0039c].
+[0:] Request: https://abkt02.azure-api.net/andbankcli/uat/restMantenimientoBeneficiarios/?subscription-key=2944c964902e4641a8a97bdb64a670b0
+Request Params: {"beneficiariesId":null,"alias":" ","beneficiaryAccount":"AD63-0001-0000-4144-4790-0100","bank":"","name":"RJARA09","telephone":" ","address":"","codPostal":"","country":"","city":"","restUserCode":"APP_WEALTH_PRE","password":"6%6TgHYd","userCode":"usr4156360","jurisdiction":"AND","radicalId":"4145012","language":"es","contractId":"        ","accion":"A"}
+FormContent: {"Headers":[{"Key":"Content-Type","Value":["application/x-www-form-urlencoded"]}]}
+[Choreographer] Skipped 1717 frames!  The application may be doing too much work on its main thread.
+[EGL_emulation] app_time_stats: avg=3.38ms min=2.34ms max=7.28ms count=60
+[0:] Result code: OK
+Response message: []
+

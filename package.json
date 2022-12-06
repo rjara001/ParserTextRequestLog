@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "fetch-to-curl": "^0.5.2",
+    "fs": "^0.0.1-security",
     "node-fetch": "^3.2.6",
     "request": "^2.88.2",
     "request-to-curl": "0.1.6"
