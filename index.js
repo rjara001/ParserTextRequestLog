@@ -13,7 +13,7 @@ const extractFormat2 = require('./extractFormat2');
 
   requests = extractFormat1(text);
   requests = requests.concat(extractFormat2(text));
-  requests = [... extractFormat2(text)];
+  // requests = [... extractFormat2(text)];
   // requests = [... extractFormat3(_)];
 
 

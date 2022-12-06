@@ -1,10 +1,4 @@
-[10:26] Rodrigo JARA PEÑA
-Resolved pending breakpoint at 'WebBaseServices.cs:328,21' to void Wealth.Services.WebServices.WebBaseServices.<>c__DisplayClass29_0<Wealth.Services.Models.Response.BeneficiaryMaintenanceResponse>.<<PerformRequest>b__0>d.MoveNext () [0x0039c].
-[0:] Request: https://abkt02.azure-api.net/andbankcli/uat/restMantenimientoBeneficiarios/?subscription-key=2944c964902e4641a8a97bdb64a670b0
-Request Params: {"beneficiariesId":null,"alias":" ","beneficiaryAccount":"AD63-0001-0000-4144-4790-0100","bank":"","name":"RJARA09","telephone":" ","address":"","codPostal":"","country":"","city":"","restUserCode":"APP_WEALTH_PRE","password":"6%6TgHYd","userCode":"usr4156360","jurisdiction":"AND","radicalId":"4145012","language":"es","contractId":"        ","accion":"A"}
-FormContent: {"Headers":[{"Key":"Content-Type","Value":["application/x-www-form-urlencoded"]}]}
-[Choreographer] Skipped 1717 frames!  The application may be doing too much work on its main thread.
-[EGL_emulation] app_time_stats: avg=3.38ms min=2.34ms max=7.28ms count=60
-[0:] Result code: OK
-Response message: []
-
+HB Request Verb: DELETE Uri: https://abkt02.azure-api.net/uat/canalcliente/transfers-api/beneficiaries/4145012/0000009?jurisdiction=AND 
+HB Body parameters: {}
+HB Request Headers: {}
+HB Headers Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJybFhmdzN3Q1JYZ2lZVEcwdmk0c0l3cV9sMDVCRXpTb2h6WVR1ZC1IU3RBIn0.eyJleHAiOjE2NzAzNDA3MTIsImlhdCI6MTY3MDM0MDQxMiwianRpIjoiMjNiM2I2MWQtNGYxNi00YjE4LWE5MTctNjNkNWZkODI4ZjU2IiwiaXNzIjoiaHR0cHM6Ly9yaHMxYWRhc3UwMS5jb3JwLmFuZGJhbmsubG9jYWw6ODQ0My9hdXRoL3JlYWxtcy9BQlciLCJzdWIiOiI5M0JCRjQyMi00MENFLTk4NjgtODU0Mi05M0VGMDc5Qzg1NEEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhZG1pbi1jbGkiLCJzZXNzaW9uX3N0YXRlIjoiODUzOTM0NjAtMzhjMS00MWVmLWFiZWMtOTRkMDNjM2FkM2UyIiwiYWNyIjoiMSIsInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI4NTM5MzQ2MC0zOGMxLTQxZWYtYWJlYy05NGQwM2MzYWQzZTIiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InVzcjQxNTYzNjAifQ.HZVAmC0a-0QnmWZQNsOr2vHm_5nlNV3ej_0t4Y0MQ-6jF0i9nDe5xUdDd-v0RGghGCocDoqSp2MNClkXJYjs3J06clSg_k0vc1uf9ymqBVdscpRKq1vg6BuJV06ZRIGk9zxD2wT4eleLEykBL4bYYwgMjQ1bhMBCwUQbBpttMku7Ap1yZE4WivJLV-SFqOVsGa0gkZUvpk0W2NZPKPXcOtMN1BAs-1ToQr2Hft5xK5rGLPMMhSmweYPzGrpXgZwCeX3TQ04mHPyqyJ0gFoMDw_4lov3NZIkjK2fZQz2Iyha7UHOX9PmYgfcM_Ox2k9g8abNShS4J13N7ONICdIJ3EA
